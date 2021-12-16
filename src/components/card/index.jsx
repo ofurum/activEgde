@@ -7,7 +7,7 @@ const Card = ({ artistDetails }) => {
     return (
         <section className="card">
             <div className="card-name">
-                <p>{artistDetails.name}</p>
+                <h2>{artistDetails.name}</h2>
             </div>
             <div className="card-details">
                 <div>
@@ -23,7 +23,6 @@ const Card = ({ artistDetails }) => {
             <div className="card-buttons">
                 <Link to={`/artists/${artistDetails.id}/albums`} className="d-inline-block"> <button className="btn btn-primary mt-3">View Album</button> </Link>
                 <Link to={`/artists/${artistDetails.id}/tweets`} className="d-inline-block"> <button className="btn btn-success mt-3">View Tweets</button> </Link>
-
             </div>
         </section>
     )

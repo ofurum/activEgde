@@ -1,0 +1,30 @@
+.album-photo{
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .album-photo-title{
+        text-align: center;
+    }
+    .album-photo-details{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .album-photo{
+        padding-left: 40px;
+        padding-right: 40px;
+    
+        .album-photo-title{
+            text-align: center;
+        }
+        .album-photo-details{
+            margin-left: auto;
+            display: block;
+            // grid-template-columns: auto auto auto;
+            margin-bottom: 20px
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.album {
+    margin-left: 50px;
+    margin-right: 50px;
+
+    .artist-name{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .album-details{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 144px
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .album {
+        margin-left: 50px;
+        margin-right: 50px;
+    
+        .artist-name{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    
+        .album-details{
+            display: block;
+            
+        }
+    }
+}

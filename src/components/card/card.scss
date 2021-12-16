@@ -1,6 +1,39 @@
 .card{
-    height: 70vh;
-    width: 20%;
+    height: 40vh;
+    width: 100%;
     border: 1px solid black;
-    border-radius: 10px
+    border-radius: 10px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-bottom: 20px;
+    .card-details{
+        margin-top: 150px;
+    }
+
+    .card-buttons{
+        margin-top: 20px;
+
+        button{
+          background: white;
+          height: 42px;
+          width: auto;
+          color: black;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+
+          &:hover{
+              background: black;
+              color: white;
+          }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        height: 60vh;
+    }
 }
