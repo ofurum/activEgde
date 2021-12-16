@@ -1,0 +1,16 @@
+.tweet-table{
+    display: flex;
+    border-bottom: 1px solid #0000;
+    margin-bottom: 30px;
+    align-items: center;
+
+    .tweet-table-details{
+        width: 100%;
+    }
+    .tweet-controls{
+        display: flex;
+        font-size: 12px;
+        gap: 15px;
+        cursor: pointer;
+    }
+}
